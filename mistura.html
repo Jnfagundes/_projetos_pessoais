@@ -22,5 +22,15 @@
     <script>
       alert("Código JavaScript")
     </script>
+    <?php
+      $dia = 31;
+      $mes = 02;
+      $ano = 2020;
+      if (chequedate($mes, $dia, $ano)) {
+        echo 'Data válida';
+      } else {
+        echo 'Data inválida';
+      }
+    ?>  
   </body>
 </html>
