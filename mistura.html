@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mistura de quatro linguasgens</title>
+    <style >
+      body {
+        background-color: lightblue;
+      }
+      h1 {
+        color: darkgreen;
+        text-aling: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de HTML </h1>
+    <?php
+      echo "Código PHP";
+    ?>
+    <script>
+      alert("Código JavaScript")
+    </script>
+    <?php
+      $dia = 31;
+      $mes = 02;
+      $ano = 2020;
+      if (chequedate($mes, $dia, $ano)) {
+        echo 'Data válida';
+      } else {
+        echo 'Data inválida';
+      }
+    ?>  
+  </body>
+</html>
